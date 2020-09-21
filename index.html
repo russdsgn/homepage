@@ -1,98 +1,38 @@
-
 <!DOCTYPE html>
-<html>
-<head    href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;>
-<link href="css/style.css" rel="stylesheet" type="text/css"> 
-  <title>Ariana is an angel</title>
-  
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Particles Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<!-- Add link tag below -->
-<body style="background-color:#ffffff;">
-</body>
 <body>
-    
+  <div id="particles-js">
+    <div id="login">
+      <form>
+        <div>
+          <label for="username">Username</label>
+          <br>
+          <input type="text" placeholder="Username">
+        </div>
 
-<!-- NavBar -->
-
-<div class="Navbar">
-    <div>
-        <img src="img/5f2e24fcd72e10f432a646ed_Group 82.png" height="32px" alt="">
-        
+        <div>
+          <label for="password">Password</label>
+          <br>
+          <input type="text" placeholder="Password">
+        </div>
+        <input type="submit" value="Login">
+      </form>
     </div>
-    <div style="padding: 8px;">
-        
-        work   -    about    -   russdsgn@gmail.com
-        
-    </div>
-</div>
+  </div>
 
-<!-- HERO -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-<div class="Hero">
-    <div class="Hero-child">
-        <div class="Hero-child-title"> 
-            Designing a product
-        </div>
-        <div class="Hero-child-text"> 
-            for modern busy people
-        </div>
-        <button class= "Button-1">
-            View Case study
-       </button>
-        </div>
-    
-    <div class="Hero-Thumbnails"> 
-        <img src="img/cubbbythumbnails.png"
-            width="100%">
-        </div>
-        
-</div>
-
-
-
-<div>
-    <img id="backgroundimage" src="img/White3.png"
-    width="100%"
-    border="0" alt="">
-    
-</div>
-
-<div style="background-image: "celebrity-names-puns---ariana-grande-1453985268-view-0.celebrity-names-puns---ariana-grande-1453985268-view-0.png";
-height: 500px; width: 100%; border: 1px solid black;">
-</div>
-
-<img src="celebrity-names-puns---ariana-grande-1453985268-view-0.png">
-
-<ol>
-  <h1>ARIANA GRANDE</h1> <!-- Notice how lists can contain other html elements like the <h1> tag. Our list now has a title! -->
-  <li>Age: millenial</li>
-  <li>Height: Short</li>
-  <li>Band: Ariana Grande and the Arianas</li>
-  <p>
-    Ari. She's cool, I guess
-  </p> <!-- Lists can contain paragraph tags to! -->
-</ol>
-
-<!--
-Add your <ul> or <ul> with quote from your favorite musician below
--->
-
-
-
-<!--<h2>Photos</h2>-->
-<!--
-If you have time add more photos of your favorite musician.
--->
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function(){
+      console.log('particles.json loaded...');
+    });
+  </script>
 </body>
 </html>
-<!--
-
-Useful documentation if you get lost
-
-File paths and images. How to link to files in folders -> https://www.w3schools.com/html/html_filepaths.asp
-
-Img Tag Documentation - https://www.w3schools.com/tags/tag_img.asp
-
-List tag documentation - https://www.w3schools.com/html/html_lists.asp
-
--->
