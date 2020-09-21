@@ -5,6 +5,7 @@ body{
 }
 
 #particles-js{
+  z-index: 1000;
   background:#111111;
   height:100vh;
 }
