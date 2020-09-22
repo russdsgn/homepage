@@ -1,37 +1,127 @@
 body{
+  background-color: rgb(2,2,33); 
   margin:0;
-  font: normal 16px Arial, Helvetica, sand-serif;
-  
+  font: normal 16px Arial, Helvetica, sand-serif;  
+  color:rgb(142, 142, 142);
 }
 
-#particles-js{
-  z-index: 1000;
-  background:#111111;
-  height:100vh;
+h1{
+color: wheat;
+
+
+}
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(bla);
+  background-color: rgb(30,40,100, .1);
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 100;
 }
 
 
 
 .wrapper{
+  position: absolute;
   overflow-y: scroll;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   scroll-snap-type: y mandatory;
+  z-index: 101;
   
 }
 
 .section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   scroll-snap-align: start;
 }
 
+.section-sub{
+  justify-content: center;
+  width: 100%;
+  /* border-style: dotted; */
+}
+
+.one-border{
+  padding: 24px;
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.two-border{
+  padding: 24px;
+  width: 60vw;
+  height: 60vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(147, 147, 147);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .one{
+  
+  
   
 }
 .two{
-  background-color: rebeccapurple;
 }
 .three{
   background-color: palevioletred;
 }
+
+.explain{
+  color: #a0b3b4;
+  line-height: 1.8;
+  letter-spacing: .6px;
+  padding: 16px;
+  max-width: 480px;
+  height: auto;
+  background-color:rgba(1, 0, 2, 0.3);
+  border-radius: 8px;
+  border-color: #212944;
+  border-style: solid;
+  
+}
+
+.fixie
+{position: fixed;
+width: 100%;
+height: auto;
+top: 8%;}
+
+.outline{
+  letter-spacing: 2px;
+  color:rgb(143, 143, 143);
+  padding: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.line{
+  height: 1px;
+  background-color: rgb(147, 147, 147);
+  width: 60vw;
+}
+
